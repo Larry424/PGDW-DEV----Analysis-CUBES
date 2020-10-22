@@ -1,0 +1,366 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f8017666-08fb-48e8-ac3c-abce01e71cb7" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Customers</ID>
+  <Name>Customers</Name>
+  <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2943" scrolltop="-4048" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9472" y="13097" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimCustomers" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4392" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c00002811000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="CUBE_DimCustomers" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-2943</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4048</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="ded931fe-2edd-424e-842d-70a72c9cc93d">
+    <DataSourceViewID>Pearl DW DEV</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="dcbf9fb5-1c2b-40a9-8d78-49bcb2e16281">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <DimensionPermissions>
+    <DimensionPermission dwd:design-time-name="72dedca3-0924-4f11-a2ae-eb8527b2f5f3">
+      <ID>DimensionPermission</ID>
+      <Name>DimensionPermission</Name>
+      <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+      <RoleID>Role 1</RoleID>
+      <Read>Allowed</Read>
+      <AttributePermissions>
+        <AttributePermission dwd:design-time-name="8e108602-4768-4e99-b628-e1e73c31ba01">
+          <AttributeID>Territory Grp Uid</AttributeID>
+        </AttributePermission>
+      </AttributePermissions>
+    </DimensionPermission>
+  </DimensionPermissions>
+  <Attributes>
+    <Attribute dwd:design-time-name="3bcd695a-3ed9-4a18-8c08-871e46ccec15">
+      <ID>ID</ID>
+      <Name>ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="a97fac69-0664-4689-8d56-cab12c777479">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="81eff1eb-20f8-4a01-beb9-ae71bebda640">
+            <TableID>CUBE_DimCustomers</TableID>
+            <ColumnID>ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="f8fe8b12-ed24-4a48-88a1-780ce98d07d3">
+          <AttributeID>Territory Group Description</AttributeID>
+          <Name>Territory Group Description</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="64ece65d-e544-479b-bb8f-758ea6fd68ff">
+          <AttributeID>Territory Group</AttributeID>
+          <Name>Territory Group</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8f2995fb-f200-4f10-a153-bdcd33e1575f">
+          <AttributeID>Territory Description</AttributeID>
+          <Name>Territory Description</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e6f80d13-bc93-47e7-8839-235279b6db02">
+          <AttributeID>Territory</AttributeID>
+          <Name>Territory</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="017048b5-7982-4ec4-bd93-6eb4a2e5ddc7">
+          <AttributeID>Cust Num</AttributeID>
+          <Name>Cust Num</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="973b09d7-56c7-4c3b-84ef-9b28c31ffa2d">
+          <AttributeID>Cust Name</AttributeID>
+          <Name>Cust Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="07148789-a7a7-48af-b6cd-56c4262bea94">
+          <AttributeID>Ship To</AttributeID>
+          <Name>Ship To</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="80cb6528-7731-4e69-b151-61d325029e7d">
+          <AttributeID>Ship To Name</AttributeID>
+          <Name>Ship To Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="4867ac78-1f67-4fbd-b4d2-2b2a71c7c090">
+          <AttributeID>Company</AttributeID>
+          <Name>Company</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="461f6144-fc07-45f8-8d3a-abd2e81925bd">
+          <AttributeID>Territory Grp Uid</AttributeID>
+          <Name>Territory Grp Uid</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="cce9b6f4-d73f-4eeb-895b-719ac45bbf36">
+          <AttributeID>Business Unit</AttributeID>
+          <Name>Business Unit</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="38f957a0-1383-427e-bcf6-2a9d5814f42f">
+          <AttributeID>Territory UID</AttributeID>
+          <Name>Territory UID</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ae056a10-93d9-414f-af25-514fdcb041c4">
+      <ID>Territory Group Description</ID>
+      <Name>Territory Group Description</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="212aa839-8695-4cd7-ae0d-7fc32cd18369">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8a86fd17-127b-4696-bb2a-38d0d686f591">
+            <TableID>CUBE_DimCustomers</TableID>
+            <ColumnID>TerritoryGroupDescription</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c0bab9e4-a0c4-49cb-bd72-d0af522097c0">
+      <ID>Territory Group</ID>
+      <Name>Territory Group</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4fbad7c6-8e50-4522-809b-c30e0af0d364">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="47e28f2b-c28e-4f46-9ac9-ca707a745092">
+            <TableID>CUBE_DimCustomers</TableID>
+            <ColumnID>TerritoryGroup</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="96290f60-830b-4b01-a7a4-ab487b046723">
+      <ID>Territory Description</ID>
+      <Name>Territory Description</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="aaa79a76-f04f-416b-b694-3f41b29c8875">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="862534ca-06d1-4dc1-9720-227052861370">
+            <TableID>CUBE_DimCustomers</TableID>
+            <ColumnID>TerritoryDescription</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="c30f4cf7-7529-46e6-9729-1b20177d0125">
+      <ID>Territory</ID>
+      <Name>Territory</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="bd0d70c1-74a1-432f-b7c0-ce297f29c9c3">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8fbcf67c-69fe-4990-926b-a9099a16b57b">
+            <TableID>CUBE_DimCustomers</TableID>
+            <ColumnID>Territory</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1f2d5e43-638d-416e-a885-8edf2193a079">
+      <ID>Cust Num</ID>
+      <Name>Cust Num</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="211c23e5-856a-4268-b416-f0b9b1fbc507">
+          <DataType>Double</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c51d9c6e-4234-459b-a122-1a7c6ee435af">
+            <TableID>CUBE_DimCustomers</TableID>
+            <ColumnID>CustNum</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="1e9afaac-6d95-4d88-985c-95195bc62f05">
+      <ID>Cust Name</ID>
+      <Name>Cust Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="73e4eb6c-6596-44ec-86d5-ca18942041a8">
+          <DataType>WChar</DataType>
+          <DataSize>255</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0273d6d1-1a82-4be2-9212-e51f66e04588">
+            <TableID>CUBE_DimCustomers</TableID>
+            <ColumnID>CustName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="336a2118-16ae-4c2e-a709-ec9aed75de4f">
+      <ID>Ship To</ID>
+      <Name>Ship To</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="0bf0b9bd-1047-46e8-9de4-5de4c09ece07">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b623e974-9cfe-47ae-893f-9cc866ba931b">
+            <TableID>CUBE_DimCustomers</TableID>
+            <ColumnID>ShipTo</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f0bf3dc8-7cf1-4c02-832d-82b2e8986d25">
+      <ID>Ship To Name</ID>
+      <Name>Ship To Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="39891839-d9c0-4134-8442-90424fd224ef">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="53d10dcb-3eb1-4aae-ba2c-40de4f7bc902">
+            <TableID>CUBE_DimCustomers</TableID>
+            <ColumnID>ShipToName</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="e6f94c87-e967-4922-b8f3-a1849959b38e">
+      <ID>Company</ID>
+      <Name>Company</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f63b71e5-5dee-43d1-9faf-9959b12489ce">
+          <DataType>WChar</DataType>
+          <DataSize>8</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="22428403-8f51-49fc-a2c6-4b8003122134">
+            <TableID>CUBE_DimCustomers</TableID>
+            <ColumnID>Company</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="5b4ffc77-9fe0-4145-a9b8-c647d659f978">
+      <ID>Territory Grp Uid</ID>
+      <Name>Territory Grp Uid</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="67b712dc-3e0c-4051-b748-e2e37b30911c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="72def0c4-62c2-47bb-8ed5-94956af8f373">
+            <TableID>CUBE_DimCustomers</TableID>
+            <ColumnID>territory_grp_uid</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="d3161569-9326-4511-b6d4-86c52b3c1b14">
+      <ID>Business Unit</ID>
+      <Name>Business Unit</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="f076c6b0-a2ce-4634-9b53-133429fc832f">
+          <DataType>WChar</DataType>
+          <DataSize>21</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="918d3d88-2854-4721-81e1-8fc3479ee783">
+            <TableID>CUBE_DimCustomers</TableID>
+            <ColumnID>business_unit</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8f71861f-42d8-4d18-adb6-999e6dc9ecde">
+      <ID>Territory UID</ID>
+      <Name>Territory UID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d6a7fd8f-4e26-417d-8aa5-0fde34d2ba70">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="47394b39-0374-4d06-a12a-f350233df64f">
+            <TableID>CUBE_DimCustomers</TableID>
+            <ColumnID>Territory_UID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

@@ -1,0 +1,289 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="fb90c980-29d6-4def-85a7-eab8a386c4a4" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Item</ID>
+  <Name>Item</Name>
+  <CreatedTimestamp>0001-01-01T05:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T05:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3075" scrolltop="-4551" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="9472" y="13097" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimItem" left="20" top="0" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="4128" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000201000009b0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="CUBE_DimItem" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-3075</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-4551</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="162">
+            <Shape Id="Product ID" Expanded="true">
+              <Attributes>
+                <Attribute Id="Product ID" />
+                <Attribute Id="Class ID1" />
+                <Attribute Id="Default Product Group" />
+                <Attribute Id="Item ID" />
+                <Attribute Id="Major Group Cd" />
+                <Attribute Id="Major Group Desc" />
+                <Attribute Id="Product Group Desc" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T05:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="6344e45a-fc88-4394-ad9d-ae2eb3c45f3c">
+    <DataSourceViewID>Pearl DW DEV</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="bbef3824-5cd1-481c-b6c1-8821e4f7d92c">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="7beaea1a-4136-443c-8256-0cc24caf9555">
+      <ID>Product ID</ID>
+      <Name>Product ID</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5060ff5b-e77d-46ab-98d8-47b38f81b2dc">
+          <DataType>Integer</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="3a0ec96d-db38-4011-9af4-506f4ddc5934">
+            <TableID>CUBE_DimItem</TableID>
+            <ColumnID>ProductID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="ef723375-475e-4bdb-acbb-cb127c7829c0">
+          <AttributeID>Item ID</AttributeID>
+          <Name>Item ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="0b153b9a-f907-4384-b78f-4ddef7c732e0">
+          <AttributeID>Class ID1</AttributeID>
+          <Name>Class ID1</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="637102fc-2b74-44a4-b6be-6c518781306a">
+          <AttributeID>Default Product Group</AttributeID>
+          <Name>Default Product Group</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="7f0076e7-e599-4084-902c-26b90636cb51">
+          <AttributeID>Product Group Desc</AttributeID>
+          <Name>Product Group Desc</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="5b5dfab3-d714-4ad9-b3c3-da2baf44dec5">
+          <AttributeID>Major Group Cd</AttributeID>
+          <Name>Major Group Cd</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="cf06edcb-14b5-4943-a05e-ecb3afc244cb">
+          <AttributeID>Major Group Desc</AttributeID>
+          <Name>Major Group Desc</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="52401786-2f21-4568-9b39-27aa40330e40">
+          <AttributeID>Major Group UID</AttributeID>
+          <Name>Major Group UID</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="123d3e93-fd8c-4117-93a7-5c682b1970b3">
+      <ID>Item ID</ID>
+      <Name>Item ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="fd80cbf4-4be1-494d-96a3-6d49213a2743">
+          <DataType>WChar</DataType>
+          <DataSize>40</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4d18e449-9f30-4379-b4b0-d9c61f3d4ef5">
+            <TableID>CUBE_DimItem</TableID>
+            <ColumnID>Item_ID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="8335c4e1-1172-435d-9c6f-84ce77a27947">
+      <ID>Class ID1</ID>
+      <Name>Business Unit</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="871e951a-18f5-4b8c-b967-18547dd85e81">
+          <DataType>WChar</DataType>
+          <DataSize>40</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b585a157-bc26-4f58-9327-ab237202f9c9">
+            <TableID>CUBE_DimItem</TableID>
+            <ColumnID>Class_ID1</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="f0363e96-002e-4a86-b586-67734994b357">
+      <ID>Default Product Group</ID>
+      <Name>Default Product Group</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="26811989-701c-480a-9d02-2c8514b0bec7">
+          <DataType>WChar</DataType>
+          <DataSize>40</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="abae4d1f-dbd8-409e-8822-afcf653ecb7a">
+            <TableID>CUBE_DimItem</TableID>
+            <ColumnID>Default_Product_group</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="9069bedc-ead1-4939-88ba-e8ced06f7aa2">
+      <ID>Product Group Desc</ID>
+      <Name>Product Group Desc</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="900e8757-1e8c-4d10-ae98-dc82bbd1e91c">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="25a4b18d-cfd1-4a73-94b4-cc5cbacfcd97">
+            <TableID>CUBE_DimItem</TableID>
+            <ColumnID>Product_Group_Desc</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0a9043dc-a73b-4441-b9fc-ab2e84de85bd">
+      <ID>Major Group Cd</ID>
+      <Name>Major Group</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7717eecc-0ed4-474d-903b-8e2373ca8b24">
+          <DataType>WChar</DataType>
+          <DataSize>2</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4ff4436c-4259-4b7f-a7e9-808c15442de1">
+            <TableID>CUBE_DimItem</TableID>
+            <ColumnID>Major_Group_Cd</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="89a89284-73b8-49e4-8591-4043e1465eb5">
+      <ID>Major Group Desc</ID>
+      <Name>Major Group Desc</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d1d39fd2-0119-4f00-9d49-6940f9267a22">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d927e043-b6c2-48b6-bb05-1225777e8314">
+            <TableID>CUBE_DimItem</TableID>
+            <ColumnID>Major_Group_Desc</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="6a8570ec-babf-4814-a79f-784161cc6e71">
+      <ID>Major Group UID</ID>
+      <Name>Major Group UID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="63b472be-9bb7-474a-9e11-9bbfabc5edc1">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="2e88974a-73d8-4691-9dff-c22a4f9fe59d">
+            <TableID>CUBE_DimItem</TableID>
+            <ColumnID>Major_Group_UID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="a3594fd0-e9fc-489a-bdf0-0419a73692a3">
+      <ID>Hierarchy</ID>
+      <Name>Item By Product Group</Name>
+      <Levels>
+        <Level dwd:design-time-name="1b66e55c-5628-441c-b9d8-7dadd61bbc70">
+          <ID>Major Group</ID>
+          <Name>Major Group</Name>
+          <SourceAttributeID>Major Group Cd</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="52d6ca17-6374-49a3-8a88-c448f7737350">
+          <ID>Product Group Desc</ID>
+          <Name>Product Group Desc</Name>
+          <SourceAttributeID>Product Group Desc</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

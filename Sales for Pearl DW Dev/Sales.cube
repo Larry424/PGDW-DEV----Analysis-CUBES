@@ -1091,17 +1091,6 @@ StrToMember ("[Cube Users].[User Name].&amp;[" + UserName () + "]"),
           </Source>
           <Visible>false</Visible>
         </Measure>
-        <Measure dwd:design-time-name="8e82c972-9726-4668-8777-13c52bf6a1ac">
-          <ID>Single Family Permits - MSA Permits Metro</ID>
-          <Name>Single Family Permits - MSA Permits Metro</Name>
-          <Source dwd:design-time-name="a759a61f-0910-40ed-acc6-94e6b0f6c5a9">
-            <DataType>Integer</DataType>
-            <Source xsi:type="ColumnBinding" dwd:design-time-name="17b60651-975d-4c6a-8463-4085b54a19e8">
-              <TableID>CUBE_FactMSA</TableID>
-              <ColumnID>SingleFamilyPermits</ColumnID>
-            </Source>
-          </Source>
-        </Measure>
       </Measures>
       <StorageMode>Molap</StorageMode>
       <ProcessingMode>Regular</ProcessingMode>
